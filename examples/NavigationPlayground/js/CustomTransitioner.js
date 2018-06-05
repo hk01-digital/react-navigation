@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   StyleSheet,
   Platform,
@@ -15,6 +15,7 @@ import {
   addNavigationHelpers,
   createNavigator
 } from 'react-navigation';
+import PropTypes from 'prop-types'
 import SampleText from './SampleText';
 
 const MyNavScreen = ({ navigation, banner }) => (
